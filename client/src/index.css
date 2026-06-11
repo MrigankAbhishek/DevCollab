@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0a18;
+  color: #d0d0e0;
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0e0e1e;
+}
+::-webkit-scrollbar-thumb {
+  background: #404070;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7070a0;
+}
+
+.monaco-editor .margin {
+  background-color: #0e0e1e !important;
+}
+
+.glow-purple {
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+}
+.glow-cyan {
+  box-shadow: 0 0 20px rgba(0, 245, 255, 0.2);
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-electric-500 hover:bg-electric-600 text-white font-sans font-medium px-4 py-2 rounded-lg transition-all duration-200 hover:shadow-lg;
+  }
+  .btn-ghost {
+    @apply text-night-100 hover:text-white hover:bg-night-700 px-4 py-2 rounded-lg transition-all duration-200;
+  }
+  .card {
+    @apply bg-night-800 border border-night-600 rounded-xl;
+  }
+  .input {
+    @apply bg-night-700 border border-night-500 rounded-lg px-3 py-2 text-night-100 focus:outline-none focus:border-electric-500 transition-colors w-full placeholder-night-300;
+  }
+}
