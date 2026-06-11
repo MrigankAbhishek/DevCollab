@@ -17,7 +17,7 @@ export default function Dashboard() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    axios.get("/api/rooms").then((r) => setRooms(r.data)).finally(() => setLoading(false));
+    axios.get("/api/rooms").then((r) => setRooms(Array.isArray(r.data) ? r.data : [])).finally(() => setLoading(false));
   }, []);
 
   const createRoom = async (e) => {
