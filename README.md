@@ -15,12 +15,7 @@ DevCollab lets developers collaborate on code in real-time — like Google Docs 
 
 ## Screenshots
 
-> Add screenshots here after deployment  
-> Suggested screenshots:
-> - Login page
-> - Dashboard (room list)
-> - Room workspace (editor + chat)
-> - Kanban board
+Screenshot 2026-06-15 114635.png
 
 ---
 
