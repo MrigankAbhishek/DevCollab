@@ -17,6 +17,12 @@ DevCollab lets developers collaborate on code in real-time — like Google Docs 
 
 ![Login](https://raw.githubusercontent.com/MrigankAbhishek/DevCollab/master/Screenshot%202026-06-15%20114635.png)
 
+![Dashboard](https://raw.githubusercontent.com/MrigankAbhishek/DevCollab/master/Screenshot%202026-06-15%20114647.png)
+
+![Room](https://raw.githubusercontent.com/MrigankAbhishek/DevCollab/master/Screenshot%202026-06-15%20114703.png)
+
+![Kanban](https://raw.githubusercontent.com/MrigankAbhishek/DevCollab/master/Screenshot%202026-06-15%20114716.png)
+
 ---
 
 ## Features
